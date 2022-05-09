@@ -1,5 +1,6 @@
 /*
 
+JS del Ejercicio 5, Mayúsculas y minúsculas
 
 */
 

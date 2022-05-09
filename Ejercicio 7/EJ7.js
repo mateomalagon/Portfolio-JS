@@ -1,1 +1,5 @@
-/* funciones ejercicio 7*/
+/* 
+
+JS del Ejercicio 7, División por Euclides
+
+*/
