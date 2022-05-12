@@ -2,14 +2,13 @@
 function calcular(){
 
 // obtener dato (radio)
-const PI = 3.1416; // no seria necesario, esta en la libreria matematica basica de JS
 let radio = Number(document.getElementById('radio').value);
 
   // realizar cáculos
 
-let circunferencia = 2 * radio * PI;
-let circulo = radio ** 2 * PI;
-let esfera = radio ** 3 * PI;
+let circunferencia = 2 * radio * Math.PI;
+let circulo = radio ** 2 * Math.PI;
+let esfera = radio ** 3 * Math.PI;
 
   // mostrar resultados
 
