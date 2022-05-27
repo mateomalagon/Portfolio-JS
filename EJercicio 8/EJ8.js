@@ -24,7 +24,7 @@ function euclides() {
     i1 = iaux; //divisor pasa a dividendo
   } while (i2 !== 0);
   
-  document.getElementById("resultadoMCD").innerHTML = `El M.C.D de ${a} y ${b} es <brilla>${i1}</brilla>`;
+  document.getElementById("resultadoMCD").innerHTML = `El M.C.D entre ${a} y ${b} es <brilla>${i1}</brilla>`;
 
   console.log(i1)
 
