@@ -6,7 +6,7 @@ JS del Ejercicio 9, Array de los meses
 
 function buscarNombre(){
 
-  const MESES = ["Enero", "Febrero", "Marzo", "Abril", "Mayo","Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+  const MESES = ["<brilla>Enero</brilla>", "<brilla>Febrero</brilla>", "<brilla>Marzo</brilla>", "<brilla>Abril</brilla>", "<brilla>Mayo</brilla>","<brilla>Junio</brilla>", "<brilla>Julio</brilla>", "<brilla>Agosto</brilla>", "<brilla>Septiembre</brilla>", "<brilla>Octubre</brilla>", "<brilla>Noviembre</brilla>", "<brilla>Diciembre</brilla>"];
 
   let mes = document.getElementById('mes').value;
 

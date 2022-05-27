@@ -16,13 +16,11 @@ let respuesta="";
 // vamos a evaluar que tipo de triángulo es
 
 if ( lado1==lado2 && lado2==lado3 ){
-  respuesta = "es equilátero";
+  respuesta = "equilátero";
+} else if ( lado1==lado2 || lado2==lado3 || lado1 == lado3){
+  respuesta = "isósceles";
 } else {
-  if ( lado1==lado2 && lado2==lado3 ){
-    respuesta = "es isósceles";
-  } else {
-    respuesta = "es escaleno";
-  }
+  respuesta = "escaleno";
 }
 
 //mostrar resultado

@@ -4,25 +4,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../imagenes/favicon.ico" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../estilo/portada.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Letra del DNI - Ejercicio 4</title>
 </head>
 <body>
   <div class="container my-5">
     <div class="row">
-        <div class="col-sm-10 col-md-8 col-lg-6 mx-auto border border-primary">
+      <form id="form">
+        <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
             <h2 class="text-center my-4">Cálculo de letra de DNI</h2>
             <h4 class="text-center mb-2">Introduce tu número del DNI: </h4><br>
             
             <div class="mb-3">
-                <input type="text" class="form-control" id="dni" placeholder="Número DNI sin letra">
+                <input required type="number" min="10000000" max="99999999" class="form-control text-center" id="dni" placeholder="Número DNI sin letra">
             </div>
 
-            <button class="btn btn-primary mb-3" onclick="letraDNI()">Calcular</button>
+            <a href="../portada.html"> <i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+
+            <button id="boton" type="submit" class="btn mb-3 d-block mx-auto""><b>Calcular</b></button>
             
             <p id="letra"></p>
 
         </div>
+      </form>
     </div>
   </div>
 

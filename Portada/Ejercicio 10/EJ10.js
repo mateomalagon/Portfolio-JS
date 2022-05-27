@@ -6,18 +6,18 @@ JS del Ejercicio 10, Traducción de los meses en inglés
 
 function traductor(){
 
-  const MESES = {"Enero":"January",
-                 "Febrero":"February", 
-                 "Marzo":"March",
-                 "Abril":"April",
-                 "Mayo":"May",
-                 "Junio":"June",
-                 "Julio":"July",
-                 "Agosto":"August",
-                 "Septiembre":"September",
-                 "Octubre":"October",
-                 "Noviembre":"November",
-                 "Diciembre":"December"};
+  const MESES = {"Enero":"<brilla>January</brilla>",
+                "Febrero":"<brilla>February</brilla>", 
+                "Marzo":"<brilla>March</brilla>",
+                "Abril":"<brilla>April</brilla>",
+                "Mayo":"<brilla>May</brilla>",
+                "Junio":"<brilla>June</brilla>",
+                "Julio":"<brilla>July</brilla>",
+                "Agosto":"<brilla>August</brilla>",
+                "Septiembre":"<brilla>September</brilla>",
+                "Octubre":"<brilla>October</brilla>",
+                "Noviembre":"<brilla>November</brilla>",
+                "Diciembre":"<brilla>December</brilla>"};
 
   let mes = document.getElementById('mes').value;
 
