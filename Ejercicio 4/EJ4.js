@@ -14,7 +14,7 @@ function letraDNI (){
 
   let letra = LETRAS.substring(resto,resto+1);
 
-  document.getElementById('letra').innerHTML="La letra de este DNI es: "+letra;
+  document.getElementById('letra').innerHTML="La letra de este DNI es: <brilla>"+letra+"</brilla>";
 }
 
 const form = document.getElementById('form')

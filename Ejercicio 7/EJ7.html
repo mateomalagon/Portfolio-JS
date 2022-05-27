@@ -13,23 +13,25 @@
 <body>
   <div class="container my-5">
     <div class="row">
+      <form id="form">
         <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
-            <h2 class="text-center my-4">División por Algoritmo de Euclides</h2>
+            <h2 class="text-center my-4"><b>División por Algoritmo de Euclides</b></h2>
             
             <div class="mb-3">
-                <input type="text" class="form-control text-center" id="dividendo" placeholder="Introduce el dividendo">
+                <input required type="number" class="form-control text-center" id="dividendo" placeholder="Introduce el dividendo">
             </div>
             <div class="mb-3">
-                <input type="text" class="form-control text-center" id="divisor" placeholder="Introduce el divisor">
+                <input required type="number" class="form-control text-center" id="divisor" placeholder="Introduce el divisor">
             </div>
 
             <a href="../index.html"> <i class="fa fa-arrow-left" aria-hidden="true"></i></a>
 
-            <button id="boton" class="btn mb-3 d-block mx-auto" onclick="divisionEuclides()"><b>Calcular</b></button>
+            <button id="boton" type="submit" class="btn mb-3 d-block mx-auto"><b>Calcular</b></button>
             
             <p id="resultadoDivision"></p>
 
         </div>
+      </form>
     </div>
   </div>
 

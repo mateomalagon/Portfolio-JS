@@ -3,6 +3,7 @@
 JS del Ejercicio 5, Mayúsculas y minúsculas
 
 */
+const pali = document.getElementById('cadena')
 
 function palindromo (){
 
@@ -14,7 +15,7 @@ function palindromo (){
 
   for (let i = 0; i < cadenaArray.length; i++) {
     if (cadenaArray[i] !== cadenaArray[cadenaArray.length - 1 - i]) {
-      respuesta = "no ";
+      respuesta = "<brilla>NO </brilla>";
       break;
     }
   }
@@ -22,3 +23,10 @@ function palindromo (){
   document.getElementById("respuesta").innerHTML = "La cadena " + respuesta + "es un <brilla>palíndromo</brilla>.";
 
 }
+
+const form = document.getElementById('form')
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  palindromo()
+  pali.value = ""
+})
